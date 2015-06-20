@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(len("Hello world"))
-	fmt.Println("Hello world"[1])
-	fmt.Println("Hello "+"World!")
+	fmt.Println(true&&false)
+	fmt.Println(true||false)
 }
