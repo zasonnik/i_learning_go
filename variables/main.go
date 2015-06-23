@@ -3,9 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	var x string
-	x = "first "
-	fmt.Println(x)
-	x = x + "second"
-	fmt.Println(x)
+	fmt.Print("Введите число ");
+	var input float32
+	fmt.Scanf("%f", &input)
+
+	var out float64 = float64(input * 2)
+
+	fmt.Println(out)
 }
