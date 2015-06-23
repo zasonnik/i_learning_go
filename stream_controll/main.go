@@ -10,6 +10,13 @@ func main() {
 		} else {
 			str = "odd"
 		}
-		fmt.Println(i, str)
+		var str2 string
+                switch i {
+                    case 0: str2 = "Zero"
+                    case 1: str2 = "One"
+                    case 2: str2 = "Two"
+                    default: str2 = "Too mutch"
+                }
+		fmt.Println(i, str, str2)
 	}
 }
