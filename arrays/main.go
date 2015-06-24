@@ -2,7 +2,13 @@ package main
 
 import "fmt"
 func main() {
-	x := [5]float64{54,77,81,98,51}
+	x := [6]float64{54,
+		77,
+		81,
+		98,
+		51,
+		54,
+		}
 
 	var total float64 = 0
 	for _, value := range x {
