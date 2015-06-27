@@ -7,7 +7,7 @@ func zero(xPtr *int) {
 }
 
 func main() {
-	x := 5
-	zero(&x)
-	fmt.Println(x)
+	x := new(int)
+	zero(x)
+	fmt.Println(*x)
 }
