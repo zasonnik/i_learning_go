@@ -11,11 +11,11 @@ func (p *Person) Talk(){
 }
 
 type Android struct {
-	Person Person
+	Person
 	Model string
 }
 
 func main() {
 	c := Android{Person{"John"},"C11"}
-	c.Person.Talk()
+	c.Talk()
 }
